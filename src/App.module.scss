@@ -1,5 +1,11 @@
 .contentWrapper {
-    h1 {
-        color: red;   
-    }
+  max-width: 1200px;
+  height: 100vh;
+  h1 {
+    color: red;
+  }
+  display: grid;
+  grid-template-columns: 1fr 453px;
+  column-gap: 120px;
+  position: relative;
 }
